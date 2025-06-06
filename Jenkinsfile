@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'samikshav/nodejs-app'  // Replace with your Docker Hub repo
+        DOCKER_IMAGE = 'Gayatri-bhatkulkar/nodejs-app'  // Replace with your Docker Hub repo
     }
 
     stages {
         stage('Clone from GitHub') {
             steps {
-                git url: 'https://github.com/Samiksha998/NodeApp.git', branch: 'main'
+                git url: 'Gayatri-bhatkulkarhttps://github.com//NodeApp.git', branch: 'main'
             }
         }
 
