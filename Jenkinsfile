@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone from GitHub') {
             steps {
-                git url: 'Gayatri-bhatkulkarhttps://github.com//NodeApp.git', branch: 'main'
+                git url: 'https://github.com/Gayatri-bhatkulkar/NodeApp.git', branch: 'main'
             }
         }
 
