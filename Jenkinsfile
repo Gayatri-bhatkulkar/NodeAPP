@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'gayatribhatkulkar/nodejs-app'  // Replace with your Docker Hub repo
+        DOCKER_IMAGE = 'gayatri391/nodejs-app'  // Replace with your Docker Hub repo
     }
 
     stages {
